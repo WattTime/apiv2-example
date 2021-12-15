@@ -119,7 +119,7 @@ print(historical_moer)
 forecast_moer = forecast(token, BA)
 print(forecast_moer)
 
-forecast_moer = forecast(token, BA, START, END)
-print(forecast_moer)
+forecast_moer_historical = forecast(token, BA, START, END)
+print(forecast_moer_historical)
 
-historical(token, BA)  # Writes zip file to current ditectory
+historical(token, BA)  # Writes zip file to current directory
