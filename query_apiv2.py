@@ -17,9 +17,9 @@ EMAIL = 'some_email@gmail.com'
 ORG = 'some org name'
 
 # request details
-    BA = 'CAISO_NORTH'  # identify grid region
+BA = 'CAISO_NORTH'  # identify grid region
 
-# starttime and endtime are optional, if ommited will return the latest value
+# starttime and endtime are optional, if omitted will return the latest value
 START = '2020-03-01T00:00:00-0000'  # UTC offset of 0 (PDT is -7, PST -8)
 END = '2020-03-01T00:45:00-0000'
 
